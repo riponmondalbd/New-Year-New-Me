@@ -133,3 +133,18 @@ header {
     font-size: 25px;
     font-weight: 500;
 }
+
+/* positive mindset styles */
+.positive-mindset-container {
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    padding: 64px;
+}
+
+.positive-title {
+    color: #FFF;
+}
+
+.call-now {
+    margin-top: 24px;
+}
