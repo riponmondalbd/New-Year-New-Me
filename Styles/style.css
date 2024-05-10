@@ -148,3 +148,61 @@ header {
 .call-now {
     margin-top: 24px;
 }
+
+/* Footer styles */
+footer {
+    background-color: #151414;
+    padding: 130px 0;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-footer {
+    width: 485px;
+}
+
+.single-footer a {
+    margin-right: 20px;
+}
+
+.footer-common {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-description {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.contact {
+    margin-bottom: 16px;
+}
+
+.subscribe-header {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.email-field {
+    padding: 22px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: #151414;
+    margin-bottom: 16px;
+}
+
+.blue-btn {
+    color: #FFF;
+    background-color: #005FAC;
+}
