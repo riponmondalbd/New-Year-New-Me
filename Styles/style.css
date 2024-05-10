@@ -106,3 +106,30 @@ header {
 .tik-color {
     color: #16D887;
 }
+
+/* My plans styles */
+.my-plan-container {
+    text-align: center;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.single-language-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.single-language-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
