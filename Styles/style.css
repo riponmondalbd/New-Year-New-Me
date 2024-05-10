@@ -1,7 +1,27 @@
 /* common styles */
 /* font */
+* {
+    margin: 0;
+}
+
 body {
     font-family: "Work Sans", sans-serif;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 130px 0;
+}
+
+/* global Title */
+.global-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 /* common button */
@@ -33,7 +53,7 @@ header {
 .header-content-container {
     width: 494px;
     text-align: right;
-    margin: 250px 0;
+    margin: 300px 0;
 }
 
 .header-main-heading {
@@ -49,4 +69,40 @@ header {
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 32px;
+}
+
+/* main styles */
+/* about section style */
+.about-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-container {
+    width: 416px;
+}
+
+.about-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.about-container>ul {
+    padding: 0;
+}
+
+.about-container>ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    color: #434443;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tik-color {
+    color: #16D887;
 }
