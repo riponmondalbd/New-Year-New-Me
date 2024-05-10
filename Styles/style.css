@@ -1,0 +1,25 @@
+/* common styles */
+/* font */
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* header styles */
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.header-container {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-content-container {
+    width: 525px;
+    text-align: right;
+}
